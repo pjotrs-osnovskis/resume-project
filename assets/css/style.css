@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100..700&family=Roboto:wght@100..700&display=swap');
+
+header{
+    margin: 0;
+}
+
+.logo{
+    background: url(../images/resume-my-face.jpg) no-repeat center center / cover;
+    min-height: 360px;
+    transition: all 5s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -webkit-transition: all 5s ease-in-out;
+
+}
