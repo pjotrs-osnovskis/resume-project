@@ -234,9 +234,11 @@
                     label: label[i % labels.length]
                 });
             });
-            
-            var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: `${path}/m`});
+
+            new MarkerClusterer(map, markers, {
+                imagePath:
+                "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+            });        
         };
     </script>
     <!-- API Key from google.com account -->
