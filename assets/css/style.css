@@ -37,6 +37,12 @@
 .bg-color-contact{
     background-color: #fff;
 }
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
 /* - -- --- Special paddings/margins/text --- -- - */
 h1,
 h2,
@@ -69,7 +75,7 @@ h4{
     float: none;
 }
 .history-heading,
-.secion-heading{
+.section-heading{
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -365,9 +371,20 @@ button[type="submit"]{
     background-color: #e84610;
 }
 
+/* - -- --- Map --- -- - */
+div#map{
+    min-height: 360px;
+}
+
+
 /* - -- --- Media Queries --- -- - */
 
 @media(min-width: 992px){
+    .section-column{
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
     .center-form{
         padding-top: 30px;
         min-height: 240px;
