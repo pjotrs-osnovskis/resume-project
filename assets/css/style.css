@@ -376,13 +376,12 @@ div#map{
     min-height: 360px;
 }
 
-/* - -- --- Page Content Styles --- -- - */
 
-.small-name {
-    font-size: 0.75em;
-    color: #a9a9a9;
-    font-style: italic;
-  }
+
+
+
+
+
 
 /* - -- --- Media Queries --- -- - */
 
