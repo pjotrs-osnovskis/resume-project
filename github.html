@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
-
+    <!-- --- JS Scripts --- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/gh-info.js"></script>
     <!-- --- Title --- -->
     <title>Pjotrs Osnovskis | GitHub</title>
 </head>
@@ -60,7 +62,23 @@
         </div>
     </header>
     <!-- --- Main Section --- -->
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
 
+                <div class="center-form">
+                    <input type="text" id="gh-username" value="sscip" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
    <!-- --- Footer --- -->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
